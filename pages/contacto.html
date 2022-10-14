@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MALBEC | RESTO PUB</title>
+    <link rel="shortcut icon" href="./img/favicon.jpg" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <form action="contacto">
+      <label for="name">Nombre y apellido</label>
+      <input type="text" name="RESERVAS" />
+      <label for="email">Correo Electronico</label>
+      <input type="email" name="email" />
+      <label for="password">contraseña</label>
+      <input type="password" name="password" />
+      <textarea name="message" cols="40" rows="5"></textarea>
+      <input type="radio" name="bussines" value="empresa grande" />
+      <label for="accept">Acepta Terminos y condiciones</label>
+      <input type="checkbox" name="acepta" value="si" checked />
+
+      <label for="service">Servicios</label>
+      <select name="services" id="">
+        <option value="Web">Web</option>
+        <option value="Apps">Apps</option>
+      </select>
+
+      <input type="submit" value="Enviar Formulario" />
+      <input type="reset" value="Limpiar Formulario" />
+      <input type="button" value="No Hace Nada" />
+    </form>
+  </body>
+</html>
